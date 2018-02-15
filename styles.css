@@ -1,8 +1,25 @@
+/* the "most important" header*/
 h1{
   font-size: 40px;
 }
 
 body{
+  /* this color is difficult to see */
   background-color: #FFE;
+  /* Bonus: top of border should be white. Btw, students might make another BODY selector; */
+  border-top: white;
 }
 
+/* "The color for the text reading 'Related Recipes' is #887" uhhhh, I don't see that text. Neither will the students, we'll go over it. */
+
+/* The link color is... */
+a{
+  color: #900;
+}
+
+/* other half of bonus */
+
+img{
+  /* Student will have to realize that you need to make the border SOLID so that it's visible before giving it a color. */
+  border: solid 5px black;
+}
